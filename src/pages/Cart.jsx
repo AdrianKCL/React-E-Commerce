@@ -72,7 +72,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                   );
                 })}
               </div>
-              {cart.length === 0 && (
+              {cart.length ===  && (
                 <div className="cart__empty">
                   <img src={EmptyCart} alt="" className="cart__empty--img" />
                   <h2>You don't have any books in your cart!</h2>
