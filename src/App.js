@@ -21,7 +21,7 @@ function App() {
         item.id === book.id
           ? {
               ...item,
-              quantity: quantity,
+              quantity: +quantity,
             }
           : item
       )
